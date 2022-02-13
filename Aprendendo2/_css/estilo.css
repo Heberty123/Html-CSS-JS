@@ -1,0 +1,231 @@
+body{
+    background-color: antiquewhite;
+}
+
+.cabecalho{
+    background-color: rgb(187, 127, 54);
+    width: 100%;
+    height: 150px;
+}
+
+.cabecalho div{
+    margin: .4458913%;
+}
+
+.imagemCabecalho{
+    width: 15%;
+    height: 90%;
+    float: left;
+    background-color: aqua;
+    margin-right: 20px;
+}
+
+
+.titulosCabFlex{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 90%;
+    float: left;
+    background-color: black;
+}
+
+.tituloCabecalho{
+    width: 99%;
+    height: 49.5%;
+    background-color: rgb(75, 68, 59);
+}
+
+.subtituloCabecalho{
+    width: 99%;
+    height: 49.5%;
+    background-color: blue;
+}
+
+.segundaimgCabecalho{
+    width: 10%;
+    height: 90%;
+    background-color: blanchedalmond;
+    float: left;
+}
+
+.terceiraimgCabecalho{
+    width: 15%;
+    height: 90%;
+    background-color: blanchedalmond;
+    float: left;
+    margin-left: -.3% !important;
+
+}
+
+.botoesCabecalho{
+    width: 20%;
+    height: 90%;
+    background-color: brown;
+    float: left;
+
+
+
+}
+
+.botaosofbotoes{
+    width: 89.5%;
+    height: 89.5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 1%;
+    margin: auto;
+}
+
+.UmBotao{
+    background-color: rgb(61, 202, 72);
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    border-radius: 15px 
+}
+
+
+/* ----- Barra Menus ----- */
+
+
+.BarraMenus{
+    width: 100%;
+    background-color: aqua;
+    height: 30px;
+
+}
+
+.principal img{
+    width: 20%;
+    height: 20%;
+}
+
+
+/* ----- Container main ----- */
+
+.ContainerMain{
+    margin: auto;
+    width: 100%;
+    max-width: 1360px;
+    background-color: rgb(212, 212, 138);
+    height: 100%;
+}
+
+.ImagemPrincipal{
+    width: 100%;
+    max-width: 1360px;
+    background-color: rgb(53, 59, 41);
+    max-height: 310px;
+    height: 100%;
+}
+
+.ImagemPrincipal img{
+    width: 100%;
+    height: 100%;
+    max-height: 310px;
+    max-width: 1360px;
+}
+
+.conteudosPrincipal{
+    width: 100%;
+    height: 100%;
+}
+
+.preConteudo{
+    width: 100%;
+    max-height: 70px;
+    height: 100%;
+    background-color: chocolate;
+}
+
+
+.ConteudosFlex{
+    width: 93%;
+    height: 93%;
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.ConteudosFlex div{
+    margin-left: 10px;
+}
+
+.Conteudo{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    max-height: 550px;
+
+
+}
+
+.Conteudo img{
+    width: 100%;
+    height: 100%;
+}
+
+.divTodasOfertas{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    margin-bottom: 10px;
+}
+
+
+.ProConteudos{
+    margin-top: 40px;
+    padding: 32px 64px;
+    height: auto;
+    background-color: brown;
+    align-items: center;
+    max-width: 1360px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+.ConteudosOfProConteudos{
+
+}
+
+.ProConteudos div{
+    background-color: aqua;
+}
+
+.OutroConteudosPrincipal{
+    width: 100%;
+    background-color: coral;
+    box-sizing: border-box;
+}
+
+.ConteudosCategoria{
+    margin-top: 1.5rem;
+    width: 100%;
+    height: 100%;
+    background-color: crimson;
+    box-sizing: border-box;
+}
+
+.DentroConteudosCategorias{
+    background-color: rgb(75, 60, 38);
+    padding: 0px 4.5rem;
+}
+
+.ImagemOfOutroConteudosPrincipal{
+    width: 100%;
+    margin-top: 43px;
+    padding: 32px 64px;
+    -webkit-box-align: center;
+    align-items: center;
+    height: auto;
+}

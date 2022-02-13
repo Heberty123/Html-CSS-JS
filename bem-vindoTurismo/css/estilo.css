@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  background-color: darkcyan;
+}
+
+header {
+  background-color: antiquewhite;
+  width: 100%;
+  height: 240px;
+  box-sizing: border-box;
+}
+
+.imagem1 {
+  width: 20%;
+  height: 100%;
+  background-color: aqua;
+  display: inline-block;
+  margin-left: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  max-width: 223px;
+}
+
+.imagem1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.titleandsub {
+  width: 33%;
+  height: 100%;
+  background-color: azure;
+  display: inline-block;
+  margin: 0;
+  vertical-align: top;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.titleandsub h1 {
+  font-size: 1.5em;
+}
+
+.imagem2 {
+  width: 25%;
+  height: 100%;
+  background-color: chartreuse;
+  display: inline-block;
+  margin: 0px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.imagem2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.menus {
+  width: 20%;
+  height: 100%;
+  background-color: cornflowerblue;
+  display: inline-block;
+  margin: 0;
+  vertical-align: top;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.menus button {
+  width: 30%;
+}
+
+.buttons {
+  margin-top: 90px;
+}
+
+main {
+}
+
+.umalista {
+  padding: 0px;
+  text-align: center;
+}
+
+.umalista li {
+  display: inline-block;
+  width: 30%;
+}
+
+.umalista li img {
+  width: 100%;
+}
+
+.umalista li h2 {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.umalista li .pequeno {
+  width: 6%;
+}
+
+footer {
+  width: 100%;
+  height: 310px;
+}
+
+.footerimg1 {
+  width: 33%;
+  height: 100%;
+  background-color: aqua;
+  display: inline-block;
+  margin-left: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  max-width: 223px;
+  vertical-align: top;
+}
+
+.footerimg1 img {
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.titleandsubfooter {
+  width: 35%;
+  height: 100%;
+  background-color: azure;
+  display: inline-block;
+  margin: 0;
+  vertical-align: top;
+  box-sizing: border-box;
+  padding: 20px;
+  padding-top: 60px;
+}
+
+.footerimg2 {
+  width: 33%;
+  height: 100%;
+  background-color: chartreuse;
+  display: inline-block;
+  margin: 0px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.footerimg2 img {
+  width: 100%;
+  height: 100%;
+}

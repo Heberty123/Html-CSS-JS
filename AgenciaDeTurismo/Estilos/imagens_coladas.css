@@ -1,0 +1,225 @@
+
+.principal_imagens-coladas{
+    width: 100%;
+    padding: 26vw;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .principal_imagens-coladas > img{
+        width: 40%;
+        border-radius: 5px;
+        border: solid black 1px;
+        max-width: 400px;
+    }
+   
+    .principal_imagens-coladas{
+        position: relative;
+    }
+  
+    .principal_imagens-coladas > img:first-child{
+        top: 0;
+        position: absolute;
+        left: 7vw;
+    }
+    
+    .principal_imagens-coladas > img:nth-child(2){
+        top: 3vh;
+        position: absolute;
+        left: 22vw;
+    }
+    
+    .principal_imagens-coladas > img:nth-child(3){
+        top: 5vh;
+        position: absolute;
+        left: 38vw;
+    }
+    
+    .principal_imagens-coladas > img:last-child{
+        top: 7vh;
+        position: absolute;
+        left: 52vw;
+    }
+
+}
+
+@media screen and (max-width: 999px) {
+    .principal_imagens-coladas{
+        padding: 20vw;
+    }
+
+    .principal_imagens-coladas > img:first-child{
+        top: 0;
+    }
+    
+    .principal_imagens-coladas > img:nth-child(2){
+        top: 3vh;
+    }
+    
+    .principal_imagens-coladas > img:nth-child(3){
+        top: 5vh;
+    }
+    
+    .principal_imagens-coladas > img:last-child{
+        top: 7vh;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .principal_imagens-coladas{
+        padding: 21vw;
+    }
+    
+    .principal_imagens-coladas > img:first-child{
+        top: 0;
+    }
+    
+    .principal_imagens-coladas > img:nth-child(2){
+        top: 3vh;
+    }
+    
+    .principal_imagens-coladas > img:nth-child(3){
+        top: 5vh;
+    }
+    
+    .principal_imagens-coladas > img:last-child{
+        top: 7vh;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .principal_imagens-coladas{
+        padding: 22vw;
+    }
+    
+    .principal_imagens-coladas > img:first-child{
+        top: 0;
+    }
+    
+    .principal_imagens-coladas > img:nth-child(2){
+        top: 3vh;
+    }
+    
+    .principal_imagens-coladas > img:nth-child(3){
+        top: 5vh;
+    }
+    
+    .principal_imagens-coladas > img:last-child{
+        top: 7vh;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .principal_imagens-coladas{
+        padding: 22vw;
+    }
+    
+    .principal_imagens-coladas > img:first-child{
+        top: 0;
+    }
+    
+    .principal_imagens-coladas > img:nth-child(2){
+        top: 3vh;
+    }
+    
+    .principal_imagens-coladas > img:nth-child(3){
+        top: 5vh;
+    }
+    
+    .principal_imagens-coladas > img:last-child{
+        top: 7vh;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .principal_imagens-coladas{
+        padding: 23vw;
+    }
+
+    .principal_imagens-coladas > img:first-child{
+        top: 0;
+    }
+    
+    .principal_imagens-coladas > img:nth-child(2){
+        top: 3vh;
+    }
+    
+    .principal_imagens-coladas > img:nth-child(3){
+        top: 5vh;
+    }
+    
+    .principal_imagens-coladas > img:last-child{
+        top: 7vh;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .principal_imagens-coladas{
+        padding: 24vw;
+    }
+    
+    .principal_imagens-coladas > img:first-child{
+        top: 0;
+    }
+    
+    .principal_imagens-coladas > img:nth-child(2){
+        top: 3vh;
+    }
+    
+    .principal_imagens-coladas > img:nth-child(3){
+        top: 5vh;
+    }
+    
+    .principal_imagens-coladas > img:last-child{
+        top: 7vh;
+    }
+
+}
+
+@media screen and (max-width: 300px) {
+    .principal_imagens-coladas{
+
+    }
+    
+    .principal_imagens-coladas > img:first-child{
+        top: 0;
+    }
+    
+    .principal_imagens-coladas > img:nth-child(2){
+        top: 3vh;
+    }
+    
+    .principal_imagens-coladas > img:nth-child(3){
+        top: 5vh;
+    }
+    
+    .principal_imagens-coladas > img:last-child{
+        top: 7vh;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+    .principal_imagens-coladas{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 20px;
+        padding: 2rem;
+        height: auto;
+    }
+    
+    .principal_imagens-coladas > img{
+        width: 100%;
+    }
+
+}
+
