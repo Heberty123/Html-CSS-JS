@@ -1,0 +1,12 @@
+.menu_mobile{
+    width: 80vw;
+    background-color: aqua;
+    height: 100%;
+    position: absolute;
+    left: -80vw;
+    transition: .2s;
+}
+
+.menu_mobile-ativo{
+    left: 0; 
+}

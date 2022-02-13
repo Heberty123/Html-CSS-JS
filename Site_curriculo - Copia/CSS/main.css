@@ -1,0 +1,92 @@
+.principal{
+    box-sizing: border-box;
+    display: grid;
+    width: 100%;
+    height: auto;
+    padding: 0px 20px;
+    align-items: center;
+    justify-items: center;
+    gap: 15px;
+}
+
+.subtitle{
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+}
+
+.subtitle::before{
+    content: '';
+    background-image: url("../img/profile.svg");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+}
+
+
+
+.Foto{
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.Minha-descricao{
+    width: 100%;
+    background-color: #dddfde;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    align-items: center;
+    padding: 20px 10px;
+    border-radius: 4px;
+}
+
+
+
+.titulo-sobreMin{
+    box-sizing: border-box;
+    font-size: 135%;
+    text-align: center;
+    grid-column: 2;
+    padding-left: 4vw;
+    text-transform: uppercase;
+}
+
+
+.descricao{
+    box-sizing: border-box;
+    font-size: 1.1rem;
+    grid-column: span 3;
+    padding: 20px 10px 10px 10px;
+}
+
+.line-linear{
+    display: inline-block;
+    grid-column: span 3;
+    position: relative;
+}
+
+.line-linear::before{
+    content: '';
+    display: inline-block;
+    background-image: url('../img/mouse.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    transform: rotate(20deg);
+}
+
+.p-laudoMedico{
+    grid-column: span 3;
+    text-align: right;
+    padding-top: 15px;
+    text-decoration: none;
+    color: blue;
+}

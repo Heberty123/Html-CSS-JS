@@ -1,0 +1,78 @@
+header{
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(83, 83, 173);
+    display: flex;
+    align-items: center;
+}
+
+.menu_img{
+    width: 20%;
+    max-width: 60px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.hamburger{
+    display: block;
+    width: 70%;
+    height: 3px;
+    background-color: black;
+    position: relative;
+
+}
+
+.hamburger::before,
+.hamburger::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+}
+
+.hamburger::before{
+    top: -10px;
+}
+
+.hamburger::after{
+    bottom: -10px;
+}
+
+
+
+
+.box_svg_pfv{
+    width: 20%;
+    max-width: 70px;
+    position: relative;
+}
+
+.pdf_img{
+    width: 100%;
+}
+
+
+.title_curriculo{
+    display: inline;
+    font-size: 1.8rem;
+    align-content: center;
+    padding: 20px;
+    margin: 0px auto;
+    color: white;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.box_svg_pfv::before{
+    content: "Baixe curriculo";
+    position: absolute;
+    color: white;
+    top: 70px;
+    text-align: center;   
+}
